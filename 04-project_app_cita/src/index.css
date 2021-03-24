@@ -81,13 +81,12 @@ input[type="time"] {
   color: white;
   margin-top: 2rem;
 }
-
 .alerta-error {
-  background-color: white;
-  color: red;
-  padding: 1rem;
-  font-size: 2rem;
-  text-transform: uppercase;
+  background-color: #dc3545;
+  color:white;
+  padding: 15px;
   text-align: center;
-  font-family:  'Staatliches', cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2em;
+  border-radius: 20px;
 } 
