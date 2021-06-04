@@ -1,7 +1,14 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useState} from 'react';
 import Formulario from './components/Formulario';
 
 function App() {
+
+
+  //Arreglo de Citas
+  const [citas, guardarCitas] = useState([]);
+
+  //Funcion que tome las citas aactuales y agregue las nuevas
+
   return (
     <Fragment>
       <h1>Administrador de citas</h1>
